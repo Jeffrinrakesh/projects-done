@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login form</title>
+<style>
+body{
+height:100vh;
+display:flex;
+width:100vw;
+margin:0;
+//background:red;
+}
+.sub{
+border:solid;
+height:80%;
+width:30%;
+margin:auto;
+background:white;
+display:flex;
+}
+.cen{
+margin:auto;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+}
+img{
+border-radius:50%;
+}
+.div3{
+text-align:center;
+margin-top:5%;
+}
+.div4{
+text-align:center;
+margin-top:3%;
+}
+button{
+margin-top:3%;
+background-color:green;
+color:white;
+text-align:center;
+display:inline-block;
+padding:7px 85px;
+border-radius:50px;
+font-size:16px;
+}
+</style>
+</head>
+<body>
+	<div class="sub">
+	    <div class="cen">
+		<div class="div1">
+			<h1>welcome</h1>
+		</div>
+		<div class="img">
+			<img src="g.jpg" width="75px">
+		</div>
+		<div class="div3">
+			<form action="next.php" method="post">
+				<label for="user" class="label">username</label>
+				<br/>
+				<input id="user" type="text" class="div3">
+			</form>
+		</div>
+		<div class="div4">
+			<form action="next.php" method="post">
+				<label for="user" class="label">password</label>
+				<br/>
+				<input id="user" type="text" class="div4">
+				<br/>
+			</form>
+		</div>
+		<div class="button">
+			<button>login</button>
+		</div>
+	    </div>
+	</div>
+</body>
+</html>
